@@ -22,3 +22,4 @@ We will be using the docker build command.
 - . ------- The current directory where the app files and the     Dockerfile. They are all in the same directory
 
 docker build -t hello-docker:1.0 .
+
