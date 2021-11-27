@@ -23,3 +23,14 @@ We will be using the docker build command.
 
 docker build -t hello-docker:1.0 .
 
+# To run this image on any docker machine
+
+` docker run hello-docker `
+
+# push the image to public docker repository
+
+1. Build
+2. Run
+3. Commit: docker commit container_ID docker_hub_login_name/image_name
+4. Login: docker login
+5. Push: docker push docker_hub_login_name/image_name
